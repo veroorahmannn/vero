@@ -1,0 +1,66 @@
+h1 {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.grid-item {
+  padding: 10px;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  /* border: 1px solid rgba(0, 0, 0, 0.8); */
+}
+.grid-item p {
+  font-size: 20px;
+  margin: 0;
+  position: absolute;
+  color: rgb(185, 1, 169);
+  font-weight: bold;
+}
+.grid-item video {
+  max-height: 300px;
+  max-width: 100%;
+  box-shadow: -2px -2px 15px #6422d6;
+}
+.grid-item .kick_btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#localVideo-container {
+  height: 250px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  box-shadow: -2px -2px 15px #0d9ba2;
+}
+
+#localVideo-container video 
+  {
+    height: 250px;
+    width: 250px; 
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    box-shadow: -2px -2px 15px #0d9ba2;
+  }
+
+body {
+  background: linear-gradient(rgba(212, 210, 210, 0.3), rgba(205, 202, 202, 0.3)), url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pinterest.com%2Frosnia25%2Fbackground-png%2F&psig=AOvVaw2I6n0-dS2JccpovmqQYXnU&ust=1712205094926000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCJjOypWbpYUDFQAAAAAdAAAAABAE);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
